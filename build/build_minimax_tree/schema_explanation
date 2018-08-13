@@ -1,0 +1,7 @@
+move_id —> (tree node id)
+player —> (player id, 1 or 2)
+move —> (tic tac toe box number)
+move_no —> (level of tree)
+result —> (-1 when result not reached, 0 when draw, 1 or 2 when either wins)
+parent_move_id —> (node id of parent node)
+score —> minimax score

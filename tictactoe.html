@@ -1,0 +1,44 @@
+<!-- -Author- : Adarsh -->
+<!DOCTYPE html>
+<html>
+
+  <head>
+ 	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Com,patible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  	<script src="static/tictactoe.js"></script>
+	<link rel="stylesheet" type="text/css" href="static/design.css"/>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <br style="line-height: 55px;">
+      <h1>TIC-TAC-TOE</h1>
+    	<div id="boxes" class="container">
+    		<canvas id="box1" width="96" height="96" onclick="onButtonClick(1)"></canvas>
+    		<canvas id="box2" width="96" height="96" onclick="onButtonClick(2)"></canvas>
+    		<canvas id="box3" width="96" height="96" onclick="onButtonClick(3)"></canvas><br/>
+    		<canvas id="box4" width="96" height="96" onclick="onButtonClick(4)"></canvas>
+    		<canvas id="box5" width="96" height="96" onclick="onButtonClick(5)"></canvas>
+    		<canvas id="box6" width="96" height="96" onclick="onButtonClick(6)"></canvas><br/>
+    		<canvas id="box7" width="96" height="96" onclick="onButtonClick(7)"></canvas>
+    		<canvas id="box8" width="96" height="96" onclick="onButtonClick(8)"></canvas>
+    		<canvas id="box9" width="96" height="96" onclick="onButtonClick(9)"></canvas>
+      </div>
+    
+      <div id="playerchoice" class="container">
+        <br>
+        <div class="initial-scale">
+          <p id="choose">Choose who goes first</p>
+          <button class="btn btn-lg btn-primary" id="firstP">Player</button>
+          <button class="btn btn-lg btn-primary" id="secondP">Computer</button>  
+        </div>
+      </div>
+    	<button id="reload">Play Again?</button>
+    </div>
+  </body>
+
+</html>

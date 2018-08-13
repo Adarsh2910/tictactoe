@@ -1,0 +1,87 @@
+/*-Author- : Adarsh*/
+
+html{
+	background-color: #E6E6DC;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+
+body {
+	background-color: #E6E6DC;
+}
+
+h1{
+	font-size: 45px !important;
+  	font-weight: 200;
+  	letter-spacing: 1.7px !important;
+}
+
+canvas{
+	background-color: #337ab7;
+	-webkit-transition: -webkit-transform 1s;
+	-ms-transition: -ms-transform 1s;
+	-moz-transition: -moz-transform 1s;
+	-o-transition: -o-transform 1s;
+	transition: transform 1s;
+
+}
+
+canvas:hover{
+	height: 94px;
+}
+
+#firstP{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+@-webkit-keyframes flash {
+	0% { background: #d9534f; }
+	50% { background : #E6E6DC; }
+	100% { background: #d9534f; }
+}
+
+
+@keyframes flash {
+	0% { background: #d9534f; }
+	50% { background : #E6E6DC; }
+	100% { background: #d9534f; }
+}
+
+
+button:hover {
+	background: #3cb0fd;
+}
+
+
+#boxes {
+	margin: 100px auto 40px;
+}
+
+#reload {
+  	letter-spacing: 1.2px !important;
+	position: relative;
+	top: 35px;
+	color: black;
+	font: 20px tahoma;	
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+}
+
+#reload:hover{
+	font-size: 25px;
+}
+
+
+@media screen and (max-width: 320px) {
+    canvas {
+    	width: 84px;
+    	height: 84px;
+	}
+	canvas:hover {
+		height: 82px;
+	}
+}
